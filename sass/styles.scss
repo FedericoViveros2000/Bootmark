@@ -1,0 +1,67 @@
+/* 
+    Importando fuentes y colores
+*/
+
+@import './variables';
+
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family:$font ;
+    font-size: $size;
+}
+
+
+
+a{
+    text-decoration: none;
+    font-weight: $weight-normal;
+    
+    &:hover{
+        color: $soft-red !important;
+    }
+
+}
+
+.bg-btn{
+    background-color: $soft-red;
+    padding: 2px 10px ;
+    border-radius: 5px;
+    list-style: none;
+    transition: all .4s;
+}
+
+.bg-btn.active:hover{
+    outline: 3px solid $soft-red;
+    background-color: transparent;
+    filter: blur(.2px);
+    
+}
+
+.size{
+    font-size: $size;
+    color: $Grayish-Blue;
+}
+
+.h1{
+    font-weight: $weight-bold;
+}
+
+.btn-primary{
+    background-color: $soft-blue;
+    color: #fff;
+    width: 50%;
+    padding: 15px 0;
+}
+
+.btn-outline-secondary{
+    width: 50%;
+    padding: 15px 0;
+}
+
