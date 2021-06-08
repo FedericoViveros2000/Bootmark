@@ -42,6 +42,7 @@ a:hover {
   list-style: none;
   -webkit-transition: all .4s;
   transition: all .4s;
+  color: #fff;
 }
 
 .bg-btn.active:hover {
@@ -49,6 +50,7 @@ a:hover {
   background-color: transparent;
   -webkit-filter: blur(0.2px);
           filter: blur(0.2px);
+  color: #fff;
 }
 
 .size {
@@ -88,6 +90,7 @@ a:hover {
 
 .more {
   color: #fff;
+  padding: 10px 20px;
 }
 
 .more:hover {
@@ -122,5 +125,9 @@ a:hover {
   background-color: transparent;
   border: 2px solid #5368df;
   color: #5368df !important;
+}
+
+.footer {
+  background-color: #252b46;
 }
 /*# sourceMappingURL=styles.css.map */

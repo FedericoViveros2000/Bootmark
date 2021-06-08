@@ -36,12 +36,14 @@ a{
     border-radius: 5px;
     list-style: none;
     transition: all .4s;
+    color: #fff;
 }
 
 .bg-btn.active:hover{
     outline: 3px solid $soft-red;
     background-color: transparent;
     filter: blur(.2px);
+    color: #fff;
     
 }
 
@@ -80,11 +82,12 @@ a{
 
 .more{
     color: #fff;
+    padding: 10px 20px;
 }
+
 .more:hover{
     color: $soft-blue;
     background-color: transparent;
-    
 }
 
 .scale:hover{
@@ -113,6 +116,10 @@ a{
     background-color: transparent;
     border: 2px solid $soft-blue;
     color: $soft-blue !important;
+}
+
+.footer{
+    background-color: $Very-Dark-Blue;
 }
 
 
