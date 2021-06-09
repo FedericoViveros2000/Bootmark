@@ -26,12 +26,20 @@ html, body {
   scroll-behavior: smooth;
 }
 
+[id] {
+  scroll-margin-top: 2ex;
+}
+
 a {
   text-decoration: none;
   font-weight: 400;
 }
 
 a:hover {
+  color: #fff !important;
+}
+
+.enlace:hover {
   color: #fa5757 !important;
 }
 
@@ -105,6 +113,12 @@ a:hover {
   width: 100%;
   text-align: center;
   margin: 20px 0;
+}
+
+.card-bg {
+  background-image: url(../images/bg-dots.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .mt-6 {
