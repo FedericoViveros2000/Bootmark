@@ -16,10 +16,11 @@ html, body{
     font-family:$font ;
     font-size: $size;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 [id]{
-    scroll-margin-top: 2ex ;
+    scroll-margin-top: 2ex;
 }
 
 a{
